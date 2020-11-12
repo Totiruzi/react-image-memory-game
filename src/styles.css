@@ -1,0 +1,63 @@
+body {
+  background-color: #661414;
+  background-size: 20px 20px;
+  color: white;
+  width: 391px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  margin: 6px 7px;
+  display: inline-block !important;
+}
+
+.flippy-front,
+.flippy-back {
+  padding: 0px !important;
+}
+
+.flipImage {
+  object-fit: cover;
+  object-position: 85% 50%;
+  border-radius: 5px;
+  width: 83px;
+  height: 140px;
+}
+
+.winFlipImage {
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgb(255, 239, 0);
+  width: 83px;
+  height: 140px;
+  opacity: 0.5;
+}
+
+.containerFlipImage {
+  box-shadow: rgba(0, 0, 0, 0.46) 4px 6px 10px;
+  border-radius: 5px;
+}
+
+.containerFrontSide {
+  box-shadow: rgba(0, 0, 0, 0.46) 4px 6px 10px;
+  border-radius: 5px;
+  background-color: #41669d;
+}
+
+.backCardImage {
+  border-radius: 5px;
+  width: 83px;
+  height: 140px;
+}
+
+.flippyContainer {
+  display: block;
+  width: 83px;
+  height: 140px;
+}
